@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&display=swap');
+
+
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --clr-orange: hsl(31, 77%, 52%);
+    --clr-cyan: hsl(184, 100%, 22%);
+    --clr-darkcyan:hsl(179, 100%, 13%);
+    --clr-paragraphs:hsla(0, 0%, 100%, 0.75);
+    --clr-bg-heading-btn:  hsl(0, 0%, 95%);
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+   
+}
+
+.content-container {
+    max-width: 920px;
+    margin: auto;
+   
+}
+
+.wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--clr-bg-heading-btn);
+    box-shadow: 0 0 10px var(--clr-orange);
+}
+.card-container {
+    padding: 3rem 3rem 0 3rem;
+    transition: .5s ease-in-out;
+}
+
+img {
+    width: 64px;
+    height: 40px;
+    margin-bottom: 2.1875rem;
+}
+
+.sedan {
+    background-color: var(--clr-orange);
+}
+.suv {
+    background-color: var(--clr-cyan);
+}
+.luxury {
+    background-color: var(--clr-darkcyan);
+}
+
+/* typography */
+
+.card-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--clr-bg-heading-btn);
+    margin-bottom: 1.5625rem;
+}
+
+.card-text-content {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--clr-paragraphs);
+    margin-bottom: 1.5625rem;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--clr-bg-heading-btn);
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    border-radius: 30px;
+    border: 0;
+}
+.sedan-btn {
+    color: var(--clr-orange)
+}
+.suv-btn {
+    color: var(--clr-cyan)
+}
+.lux-btn {
+    color: var(--clr-darkcyan)
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    font-size: .7rem;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 50px; /* footer height */
+    color: var(--clr-orange);
+    margin-top: 50px;
+  }
+
+@media screen and (min-width: 700px){
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        transition: .5s ease-in-out;
+    }
+    footer {
+        font-family: 'Inter', sans-serif;
+        font-size: .8rem;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        height: 50px; /* footer height */
+        color: var(--clr-orange)
+      }
+
+}
+
