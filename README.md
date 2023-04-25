@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/DavidIrvine-TW/frontend-Mentor-3-column-preview-card-component)
+- Live Site URL: [live site](https://davidirvine-tw.github.io/frontend-Mentor-3-column-preview-card-component/)
 
 ## My process
 
@@ -32,7 +32,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Add your name here](https://github.com/DavidIrvine-TW)
+- Frontend Mentor - [@david irvine](https://www.frontendmentor.io/profile/yourusername)
+
 
